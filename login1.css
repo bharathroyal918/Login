@@ -1,0 +1,88 @@
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+  }
+  body{
+    /* background-color: gray; */
+    background-image: url('bg7.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+  }
+.container{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    margin: 140px auto;
+    width: 400px;
+    padding: 50px;
+    /* background: transparent; */
+    /* background-color: rgb(49, 161, 227); */
+    background-image: url('bg6.avif');
+    box-sizing: border-box;
+    box-shadow: 0 2px 25px;
+    border-radius: 20px;
+    position: relative;
+}
+.header h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-family:cursive;
+}
+
+.header .input-form input{
+    width: 300px;
+    padding: 10px 45px 10px 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    position: relative;
+    /* color: black; */
+}
+.input-form i{
+    position: absolute;
+    right:60px;
+    margin: 10px 0;
+}
+.input-form input::placeholder{
+    color: red;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.input-form input{
+    background: transparent;
+    box-shadow: 0 1px 1px 1px;
+    color: rgb(230, 237, 233);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.name, .password, i{
+    color: black;
+    overflow: hidden;
+}
+.remember{
+    padding-left: 20px;
+    cursor: pointer;
+}
+.btn{
+    position: relative;
+    margin: 10px 100px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(121, 231, 121);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(58, 223, 58);
+}
